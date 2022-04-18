@@ -2,8 +2,8 @@
 
 * Deploy method: 
     * Terraform is used to provision the required aws resources. 
-    * The resources required is: 
-        1. a security group to allow network traffic to the website on port 80.
+    * The resources required are: 
+        1. Security group to allow network traffic to the website on port 80.
         2. `t2.micro` instance to host the website.
 
     * Terraform is used to configure the instance to run OWASP Juice shop using the offical Docker container provided in the OWASP Juice shop github repo.
